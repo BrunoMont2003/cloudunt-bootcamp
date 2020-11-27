@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mi portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="menu">
+        <a href="index.html"
+          ><img src="fotoPerfil.jpg" class="menu__foto" />
+        </a>
+        <nav class="menu__navegacion">
+          <ul class="menu__list">
+            <li class="menu__list__item">
+              <a
+                href="#about"
+                class="menu__list__enlace active"
+                onclick="selectMenuOption(this)"
+                ><i class="menu__list__icon fa fa-info"></i>
+                <h4 class="menu__list__title">Sobre mí</h4></a
+              >
+            </li>
+            <li class="menu__list__item">
+              <a
+                href="#work"
+                class="menu__list__enlace"
+                onclick="selectMenuOption(this)"
+                ><i class="menu__list__icon fa fa-briefcase"></i>
+                <h4 class="menu__list__title">Proyectos</h4></a
+              >
+            </li>
+            <li class="menu__list__item">
+              <a
+                href="#contact"
+                class="menu__list__enlace"
+                onclick="selectMenuOption(this)"
+                ><i class="menu__list__icon fa fa-envelope"></i>
+                <h4 class="menu__list__title">Contacto</h4>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <footer class="footer">
+          <a
+            target="blank"
+            href="https://twitter.com/bruno_montanez"
+            class="footer__enlace enlace--twitter"
+          >
+            <i class="footer__icon fa fa-twitter"></i>
+          </a>
+          <a
+            target="blank"
+            href="https://www.facebook.com/brunomont.diaz75"
+            class="footer__enlace enlace--facebook"
+          >
+            <i class="footer__icon fa fa-facebook"></i>
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/BrunoMont2003"
+            class="footer__enlace enlace--github"
+          >
+            <i class="footer__icon fa fa-github"></i>
+          </a>
+          <a
+            target="blank"
+            href="https://www.instagram.com/bruno.montanez/?hl=es-la"
+            class="footer__enlace enlace--instagram"
+          >
+            <i class="footer__icon fa fa-instagram"></i>
+          </a>
+        </footer>
+      </header>
+      <main class="contenido-principal">
+        <article id="about" class="contenido">
+          <section class="contenido__cabecera">
+            <h2 class="contenido__titulo">Sobre mí</h2>
+            <h1 class="contenido__nombre"><b>bruno</b> mont</h1>
+            <p class="contenido__profesion">Estudiante</p>
+
+            <p class="contenido__description">
+              Actualmente, curso el 2do ciclo de la carrera Ingeniería de
+              sistemas en la Universidad Nacional de Trujillo. Además, estoy
+              aprendiendo los lenguajes de
+              <b class="contenido__description__destacado">HTML</b> y
+              <b class="contenido__description__destacado">CCS</b>.
+            </p>
+            <a
+              target="blank"
+              href="https://github.com/BrunoMont2003"
+              class="contenido__boton__know-more"
+            >
+              Saber más
+            </a>
+          </section>
+          <footer class="contenido__footer">
+            <i class="contenido__footer__icon fa fa-quote-left"></i>
+            <p class="contenido__footer__text">Stay Hungry. Stay Foolish.</p>
+          </footer>
+        </article>
+        <article id="work" class="contenido">
+          <h2 class="contenido__titulo">Proyectos</h2>
+          <article class="contenido__cards">
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="s1/index.html"
+                class="contenido__cards__card__enlace"
+              >
+                <img
+                  src="s1/etiquetas_principales.PNG"
+                  class="contenido__cards__card__foto"
+                />
+              </a>
+            </section>
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="s2/index.html"
+                class="contenido__cards__card__enlace"
+              >
+                <img
+                  src="s2/design_2.jpg"
+                  class="contenido__cards__card__foto"
+                />
+              </a>
+            </section>
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="s3/index.html"
+                class="contenido__cards__card__enlace"
+              >
+                <img
+                  src="s3/Challenge 03.jpg"
+                  class="contenido__cards__card__foto"
+                />
+              </a>
+            </section>
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="https://www.canva.com/design/DAEKNqAF6HE/mKuLhyrjAppV6aumMe8AAQ/view?utm_content=DAEKNqAF6HE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+                class="contenido__cards__card__enlace"
+              >
+                <img
+                  src="Monografia.PNG"
+                  class="contenido__cards__card__foto"
+                />
+              </a>
+            </section>
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="https://drive.google.com/file/d/1bhV-XaHeoeCelQNsraggvZS17AK0BGT0/view?usp=sharing"
+                class="contenido__cards__card__enlace"
+              >
+                <img src="pokemon.PNG" class="contenido__cards__card__foto" />
+              </a>
+            </section>
+            <section class="contenido__cards__card">
+              <a
+                target="blank"
+                href="bitacora/index.html"
+                class="contenido__cards__card__enlace"
+              >
+                <img
+                  src="bitacora/Bitacora.PNG"
+                  class="contenido__cards__card__foto"
+                />
+              </a>
+            </section>
+          </article>
+        </article>
+        <article id="contact" class="contenido">
+          <h2 class="contenido__titulo">Contacto</h2>
+          <form action="" class="contenido__formulario">
+            <label class="contenido__text">Escribe algo...</label>
+            <textarea
+              class="contenido__formulario__txa"
+              placeholder="..."
+            ></textarea>
+            <label class="contenido__text">Tus datos</label>
+            <input
+              class="contenido__formulario__input"
+              maxlength="40"
+              placeholder="Nombre Completo"
+            />
+            <input
+              class="contenido__formulario__input"
+              maxlength="40"
+              type="email"
+              placeholder="Correo Electrónico"
+            />
+            <button class="contenido__formulario__boton__enviar">Enviar</button>
+          </form>
+        </article>
+      </main>
+    </div>
+    <script>
+      function selectMenuOption(clickedOption) {
+        const menuOptions = document.getElementsByClassName(
+          "menu__list__enlace"
+        );
+        const className = "active";
+        for (let index = 0; index < menuOptions.length; index++) {
+          const option = menuOptions[index];
+          option.classList.remove(className);
+        }
+        clickedOption.classList.add(className);
+      }
+    </script>
+  </body>
+</html>
